@@ -1,0 +1,78 @@
+/* Additional styles in App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f7ff; /* Light blue background color */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.selector,
+.slider,
+.input {
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #b3e6ff; /* Light blue header color */
+}
+
+.table tr:hover {
+  background-color: #d1ecf7; /* Light hover effect */
+  cursor: pointer;
+}
+
+.loader {
+  text-align: center;
+  color: #777;
+  margin: 20px 0;
+}
+
+.book-details {
+  margin-top: 20px;
+}
+
+.book-details h2 {
+  margin-bottom: 10px;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-details img {
+  max-width: 150px;
+  border-radius: 8px;
+}
+
+.book-details h3 {
+  margin-top: 20px;
+}
