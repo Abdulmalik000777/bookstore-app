@@ -27,8 +27,11 @@ const App = () => {
     const faker = getLocalizedFaker(language);
     faker.seed(seed + page);
 
+    // If resetting, start with an empty book list and set page to 0
+    let startIndex = reset ? 1 : books.length + 1;
+
     const newBooks = Array.from({ length: 20 }, (_, index) => ({
-      index: page * 20 + index + 1,
+      index: startIndex + index,
       isbn: faker.datatype.uuid(),
       title: faker.commerce.productName(),
       author: faker.name.findName(),
